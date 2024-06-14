@@ -67,8 +67,7 @@ namespace ex3 {
         void helpUseDevCard(const std::string& type, Game& game, string ressourceMonopol, int start1, int end1, int start2, int end2, string ressource1, string ressource2);
         void init();
         vector <Place> getPlaces() {return this->places;}
-        // int getNumOfPlaces(int index) {return this->num_for_places[index];}
-        // void addNumOfPlaces(int n, int index) {this->num_for_places[index]+=n;}
+
         
     };
     
